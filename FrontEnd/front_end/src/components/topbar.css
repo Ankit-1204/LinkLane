@@ -1,0 +1,39 @@
+/* Adjust the .navbar style to space out the logo, search, and navigation items */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Keeps items spaced out */
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.navbar_logo {
+  height: 50px;
+}
+
+/* This will be your search container */
+.search-container {
+  flex-grow: 1; /* Allows the search container to take up available space */
+  display: flex;
+  justify-content: center; /* Centers the search bar */
+  padding: 0 20px; /* Adds some padding on the sides */
+}
+
+.search-input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; /* Makes the search bar expand to the width of its container */
+  max-width: 400px; /* Maximum width of the search bar */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+li {
+  margin: 0 10px;
+}

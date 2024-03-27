@@ -1,0 +1,4 @@
+PORT=5000
+MONGO_DB_URI=mongodb+srv://rksastha003:Kd5eK54cNDsTlrFv@cluster0.umkwkwv.mongodb.net/chat-app-db?retryWrites=true&w=majority
+JWT_SECRET=U6FJVlLsS42iTKL1Ad1UOlsMA4fGtiby6vE9bZkyT1U=
+
